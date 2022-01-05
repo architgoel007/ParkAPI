@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ParkAPI.Controllers.AccountController.GetToken(ParkAPI.Models.UserLogins)">
+            <summary>
+            Generate an Access token
+            </summary>
+            <param name="userLogins"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkAPI.Controllers.AccountController.GetList">
+            <summary>
+            Get List of UserAccounts   
+            </summary>
+            <returns>List Of UserAccounts</returns>
+        </member>
+        <member name="M:ParkAPI.Controllers.NationalParksController.GetNationalParks">
+            <summary>
+            Get List of National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkAPI.Controllers.NationalParksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get Individual National Parks
+            </summary>
+            <param name="nationalParkId"> The Id of National Parks </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
